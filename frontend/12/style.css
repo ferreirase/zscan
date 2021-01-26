@@ -1,0 +1,9 @@
+#nav > li {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+li[data-content="Onde Comprar"] {
+    color: blue;
+    font-weight: bold;
+}

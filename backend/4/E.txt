@@ -1,0 +1,3 @@
+TRUNCATE users;
+TRUNCATE groups;
+TRUNCATE permissions;

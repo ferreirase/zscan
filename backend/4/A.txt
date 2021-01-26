@@ -1,0 +1,3 @@
+SELECT DISTINCT login, created FROM `users` JOIN groups ON groups.id IN (15, 40) 
+WHERE month(users.created)='1' 
+AND year(users.created)='2013';

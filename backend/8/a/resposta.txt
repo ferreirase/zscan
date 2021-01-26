@@ -1,0 +1,7 @@
+No console será apresentado o número 4 por 4 vezes; 
+
+Isso acontece porque quando o loop termina o valor de "i" no momento é 4; 
+Quanto ao valor ser 4 ao invés de 0 a 3, é por conta do tipo da variável ser VAR;
+tem haver com o escopo de cada tipo de variável; 
+Declarada como VAR a variável "i" está acessível no escopo do loop, 
+mas não no escopo da função dentro do setTimeOut.
